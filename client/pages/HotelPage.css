@@ -1,0 +1,154 @@
+/* HotelsPage Styles */
+.hotels-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 45px auto;
+    padding: 20px 0;
+}
+
+.page-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-form {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #F26322;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #F7A400;
+}
+
+.loading, .message {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    padding: 20px;
+}
+
+.hotel-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.hotel-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.hotel-card:hover {
+    transform: translateY(-10px);
+}
+
+.hotel-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.hotel-info {
+    padding: 20px;
+}
+
+.hotel-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.hotel-city {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.hotel-price {
+    font-size: 24px;
+    color: #F26322;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hotel-description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.book-button {
+    padding: 10px 15px;
+    background-color: #F26322;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+    background-color: #F7A400;
+}
+
+.book-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.hotel-rating {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFA500;
+    margin-bottom: 10px;
+}
+
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+    .search-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+    .hotel-cards {
+        grid-template-columns: 1fr;
+    }
+}

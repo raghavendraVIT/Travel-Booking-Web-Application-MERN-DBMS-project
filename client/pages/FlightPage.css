@@ -1,0 +1,238 @@
+/*
+
+.flights-page-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.page-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.search-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+    padding: 12px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-input:focus {
+    border-color: #007BFF;
+}
+
+.search-button {
+    padding: 12px 30px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+
+.loading-message,
+.error-message {
+    text-align: center;
+    font-size: 18px;
+    margin: 40px 0;
+}
+
+.error-message {
+    color: #FF0000;
+}
+
+
+.flight-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.flight-card {
+    background-color: #fff;
+    padding: 20px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #007BFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flight-info {
+    margin-bottom: 20px;
+}
+
+.flight-airline {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.flight-details {
+    font-size: 14px;
+    color: #777;
+}
+
+.route {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.source, .destination {
+    font-weight: bold;
+}
+
+
+.flight-booking {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flight-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.book-button {
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.book-button:hover:not(:disabled) {
+    background-color: #218838;
+}
+*/
+
+/* Basic Styling for FlightsPage */
+
+.homepage-container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+.search-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.loading, .message {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.flight-results {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.flight-card {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.flight-info {
+    margin-bottom: 15px;
+}
+
+.flight-airline {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.flight-date {
+    font-size: 14px;
+    color: #888;
+}
+
+.flight-route {
+    font-size: 16px;
+    color: #555;
+}
+
+.price-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flight-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.btn-primary {
+    font-size: 16px;
+}
+

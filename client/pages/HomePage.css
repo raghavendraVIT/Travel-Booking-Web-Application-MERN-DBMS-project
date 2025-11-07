@@ -1,0 +1,138 @@
+/* Main container */
+.homepage-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to right, #f0f7ff, #ffffff);
+    padding: 80px 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.hero-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    color: #777;
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.flight-button {
+    background-color: #007BFF;
+    color: white;
+    border: 2px solid #007BFF;
+}
+
+.flight-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.hotel-button {
+    background-color: transparent;
+    color: #007BFF;
+    border: 2px solid #007BFF;
+}
+
+.hotel-button:hover {
+    background-color: #f1f9ff;
+    border-color: #0056b3;
+}
+
+/* Our Services Section */
+.services-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Feature Cards */
+.feature-card {
+    background-color: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+    border-top: 5px solid #007BFF;
+}
+
+.feature-card:hover {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.icon {
+    font-size: 40px;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.explore-link {
+    font-size: 16px;
+    color: #007BFF;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.explore-link:hover {
+    color: #0056b3;
+}

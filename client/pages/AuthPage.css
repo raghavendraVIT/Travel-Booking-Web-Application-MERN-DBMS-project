@@ -1,0 +1,94 @@
+/* Container for the entire auth page */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f8f8f8;
+    padding: 20px;
+}
+
+/* Card container for the form */
+.auth-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Header for login/register page */
+.auth-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #E94E77; /* MakeMyTrip pink */
+    margin-bottom: 20px;
+}
+
+/* Form input field */
+.auth-input {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #f8f8f8;
+    transition: all 0.3s ease;
+}
+
+.auth-input:focus {
+    border-color: #E94E77; /* Highlighted border color */
+    background-color: #fff;
+}
+
+/* Error message */
+.error-message_login {
+    background-color: #FEE2E2;
+    color: #DC2626;
+    /*color: #E94E77; */
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+/* Submit button */
+.auth-button {
+    background-color: #E94E77; /* MakeMyTrip Pink */
+    color: white;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+    background-color: #C12D59; /* Darker pink for hover effect */
+}
+
+.auth-button:disabled {
+    background-color: #D1D5DB; /* Disabled button color */
+}
+
+/* Toggle between Sign In and Register */
+.toggle-auth {
+    margin-top: 20px;
+}
+
+.toggle-button {
+    background: none;
+    border: none;
+    color: #E94E77; /* MakeMyTrip Pink */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.toggle-button:hover {
+    color: #C12D59; /* Darker pink for hover effect */
+}
