@@ -1,0 +1,117 @@
+/* BookingCard.css */
+
+.booking-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 8px solid #4F46E5; /* Indigo color for left border */
+    margin-bottom: 20px;
+}
+
+.booking-info {
+    flex: 1;
+}
+
+.booking-type {
+    font-size: 14px;
+    font-weight: 600;
+    color: #6B7280;
+    display: flex;
+    align-items: center;
+}
+
+.booking-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.booking-details {
+    margin-top: 16px;
+    color: #4B5563;
+}
+
+.booking-date {
+    font-size: 14px;
+    color: #6B7280;
+}
+
+.booking-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 12px; 
+}
+
+.status {
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 16px;
+}
+
+.confirmed {
+    background-color: #D1FAE5;
+    color: #10B981;
+}
+
+.cancelled {
+    background-color: #FEE2E2;
+    color: #EF4444;
+}
+
+.booking-price {
+    font-size: 24px;
+    font-weight: 800;
+    color: #4F46E5;
+}
+
+.cancel-button {
+    background-color: #EF4444;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.cancel-button:hover {
+    background-color: #DC2626;
+}
+
+.booking-hotel-image {
+  width: 100%;
+  max-width: 250px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+
+/* Media queries for responsiveness */
+@media (min-width: 768px) {
+    .booking-card {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .booking-info {
+        flex: 2;
+    }
+
+    .booking-actions {
+        flex: 1;
+        text-align: right;
+    }
+}

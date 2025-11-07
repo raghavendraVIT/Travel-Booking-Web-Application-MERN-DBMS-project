@@ -1,0 +1,31 @@
+/* Footer.css */
+
+.footer-container {
+    background-color: #2d2d2d;  /* Dark background for footer */
+    color: #ffffff;             /* White text */
+    padding: 40px 20px;         /* Padding for spacing */
+    margin-top: 40px;           /* Space from the content above */
+    text-align: center;         /* Center the content */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif; /* Ensure consistent font */
+}
+
+.footer-subtext {
+    font-size: 14px;
+    color: #b0b0b0;  /* Lighter gray color */
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        padding: 30px 15px; /* Adjust padding on smaller screens */
+    }
+
+    .footer-subtext {
+        font-size: 12px;  /* Make the subtext smaller on smaller screens */
+    }
+}

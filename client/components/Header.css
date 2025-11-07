@@ -1,0 +1,173 @@
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 1000;
+    padding: 20px 0;
+    margin-top: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_tabs {
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 0 20px;
+}
+
+.booking-card_tabs {
+    background: white;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.service-tabs {
+    display: flex;
+    gap: 30px;
+    border-bottom: 2px solid #e5e7eb;
+    margin-bottom: 20px;
+}
+
+.tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 15px 20px;
+    cursor: pointer;
+    color: #6b7280;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.tab.active {
+    color: #3b82f6; /* Active text color */
+    border-bottom-color: #3b82f6; /* Bottom border color */
+    background-color: rgba(59, 130, 246, 0.1); /* Light background for active tab */
+}
+
+.tab:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Background color for hover effect */
+}
+
+.tab-icon {
+    font-size: 28px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(29, 81, 165);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo-icon {
+    width: 40px;
+    height: 40px;
+    background: #ef4444;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+.nav-items {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-item {
+    font-size: 14px;
+    color: #7c8d93;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+    color: #F26322;
+}
+
+.auth-btn {
+    display: flex;
+    align-items: center;
+}
+
+.login-btn {
+    background-color: #F26322;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #F7A400;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-name {
+  font-weight: 500;
+  color: #333;
+}
+
+.logout-btn {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #d9363e;
+}
+
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nav-items {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .login-btn {
+        margin-top: 15px;
+    }
+}
