@@ -1,0 +1,44 @@
+/* App.css */
+
+/* Global container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Header section */
+header {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 80px;  /* Height of the header */
+  padding: 20px 0;
+  z-index: 1000;  /* Ensure the header stays on top of other content */
+}
+
+/* Main content area */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  margin-top: 80px; /* Ensure content doesn't overlap with the fixed header (80px is the height of the header) */
+}
+
+/* Footer section */
+footer {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Style for any additional content */
+.content {
+  padding: 20px;
+}
